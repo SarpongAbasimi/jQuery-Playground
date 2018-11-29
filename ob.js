@@ -1,4 +1,10 @@
+
 <!-- Only change code above this line. -->
+
+//When Uisng jQuery in an application, you must initiate it with.
+//$(document).ready(function(){}).
+//By doing this the code in the script tags will not load until the Dom is fully loaded.
+//If this is not done correctly , it could cause bugs in the application
 <div class="container-fluid">
   <h3 class="text-primary text-center">jQuery Playground</h3>
   <div class="row">
